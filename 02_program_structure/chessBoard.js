@@ -6,7 +6,7 @@ for(y=0;y<cbSize;y++){
   for(x=0;x<cbSize;x++){
     // If y is an even number
     if(y%2 === 0){
-      // Set # every other time if x is dividable with 2 (slétt tala)
+      // Set # every other time if x is an even number
       if(x%2 === 0){
         chessBoard += ' ';
       } else {
